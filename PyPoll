@@ -1,0 +1,6 @@
+# PyPoll Roadmap
+# 1. Find total number of votes
+# 2. List the candidates who received votes
+# 3. List the total votes each candidate received
+# 4. List % of total votes each candidate received
+# 5. Winner based on popular vote
