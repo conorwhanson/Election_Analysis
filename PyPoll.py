@@ -10,6 +10,12 @@ file_to_save = os.path.join('election_analysis.txt')
 # initialize total vote counter
 total_votes = 0
 
+# declare counties
+county = []
+county_votes = {}
+lg_county_turnout = ""
+big_county_votes = 0
+
 # declare candidate options and votes
 candidate_options = []
 candidate_votes = {}
