@@ -2,9 +2,8 @@
 The purpose of this project was to audit and analyze voting data in a local Colorado congressional election. 
 
 ## Resources
-
-    - Data source: election_results.csv
-    - Software used: Python 3.9.7; Visual Studio Code 1.66.0
+- Data source: election_results.csv
+- Software used: Python 3.9.7; Visual Studio Code 1.66.0
 
 ## Results
 - The total votes cast in this election was 369,711.
