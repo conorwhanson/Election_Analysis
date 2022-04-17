@@ -20,3 +20,12 @@ The purpose of this project was to audit and analyze voting data in a local Colo
 ## Summary of Election-Audit
 How this script can be used for any election in the future, with at least two examples of how the code can be refactored for future purposes.
 
+This script worked well for the analysis goals of this particular election. It could certainly be used for future elections, albeit with a few modifications depending upon what the analysis goal(s) would be. Two examples will suffice to show this. First, it may be useful to track the candidate votes based on county. In the below portion of the code, where the candidate names and counties were pulled from the dataset, we could easily insert a conditional (after line 78) to count candidate votes based on county and save that to a set of variables (defined before the script runs). 
+![candidate_county_data](github path)
+
+This could be very useful to analyze the popularity of each candidate based on the county, particularly as it relates to the candidate's respective platform and that platform's popularity in each county. This would help fill out a picture of the demographics and socio-political tendencies of each county.
+
+Second, the script could be used in conjunction with county population data to see the turnout of each county as it relates to that county's total population (voting age, of course; or perhaps registered voters). Another csv file could be read in, which would contain population and voter registration data for each county. A simple calculation could then be placed within the for-loop beginning on line 112 (after the county turnout of total votes was calculated) in the image below.
+![county_turnout](github path)
+
+This would be potentially helpful to which counties are most politically engaged based on their total pool of registered voters/population. Further, if a particular county has a trend of high voter turnout, this could be discovered and perhaps anticipated in future election analyses and audits. This could help fill out a picture of the overall expected political activity of each county, especially as it relates to that county's socio-political tendencies noted above.
